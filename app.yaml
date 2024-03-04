@@ -11,7 +11,9 @@ handlers:
   upload: public/about.html
   secure: always
 
-- url: /contactus
-  static_files: public/contactus.html
-  upload: public/contactus.html
+- url: /contact
+  static_files: public/contact.html
+  upload: public/contact.html
   secure: always
+
+
