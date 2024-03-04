@@ -17,3 +17,7 @@ handlers:
   secure: always
 
 
+- url: /styles.css
+  static_files: public/styles.css
+  upload: public/styles.css
+
