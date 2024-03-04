@@ -1,0 +1,105 @@
+/*if we want to add /delete/ update anything we can just do it at one place in css sheet*/
+
+h1 {
+    color: orange;
+    /*this will style h1 tag in HTML as orange*/
+    background-color: beige;
+    /* the background of h1 will be beige*/
+    font-size: 50px;
+    /* this will change the pixel size = size of the font*/
+    text-decoration: line-through;
+    font-family: Arial;
+    /*but default it is times new roman*/
+    text-align: center;
+    /*alligent can be left, right, center, align etc*/
+}
+
+p {
+    color: slategray;
+    /*this will style all p (para) in HTML as slategray*/
+    background-color: azure;
+    text-decoration: underline;
+    text-align: right;
+    line-height: 35px;
+    /*sets the vertical space in the dofferent lines in the paragraph*/
+    letter-spacing: 3.5px;
+    /*letter can have spaces between them*/
+    column-count: 3;
+    /*it will create colmns like newspaper has*/
+    column-gap: 70px;
+    /*The gap between each colums*/
+}
+
+h2 {
+    color: red;
+    background-color: seashell;
+}
+
+ul {
+    text-decoration: overline;
+    border-width: 7px;
+    /* It will give thickness of border.
+                        But by using only this nothing will happen as they are made of different paths
+                        at least 2 of these paths needs to be present*/
+    border-style: dashed;
+    /* border will be of dashed form*/
+    border-color: red;
+}
+
+/*we can user the border statement in a single line as well instaed of the 3 lines that we did for ul*/
+ol {
+    border: 5px dotted pink;
+    /* hereis the single line command for border styling*/
+}
+
+ol {
+    border-bottom: 10px solid green;
+    /* we have done for only bottom of border styling*/
+}
+
+ul {
+    border-right: 8px solid yellow;
+}
+
+li {
+    /* li tag = list tags*/
+    list-style-type: square;
+    /* by deafult it is "disc".
+                                we can set to "none" and it will remove points
+                                Square will remove them by square type bullet points*/
+    text-shadow: 2px 5px lightblue;
+    /* right and below : shadow*/
+}
+
+P {
+    text-shadow: 2px 2px #cebaba;
+}
+
+/* Colours/ Hex Codes :
+white,  black,  yellow, green 
+We could hex code: start with # and have 6 digits eg; 42f4f1
+We have 3 channels in a hex code.
+If we take 42f4f1 , here;
+42 is red channel (R)
+f4 is green (G)
+f1 is Blue (B)
+for each channel , 0 --> darkest and f --> brghtest shade.
+#000000 --> black and #ffffff --> white
+We can use Vcode to use these hexcode colors.
+*/
+
+
+/* 
+BLOCK LEVEL EMLEMNTS:
+- Take up the whole width of a page regardless of content.
+- p, dov, h1, h2, h3, ul, il and more.
+- They always sit on new line.
+- It takes the full width of the page and starts on line a new
+
+INLINE ELEMENTS:
+- They don't takeup room then their content needs
+- span, img, strong, em, a and more.
+- They are nested inside the block level elements.
+- We shouldn't nest block level into inline elements.
+- we can put "anchor tag" <a> inside "para" <p>, but can't but <p> inside <a>.
+*/

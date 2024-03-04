@@ -1,0 +1,18 @@
+runtime: python39
+
+handlers:
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+  secure: always
+
+- url: /About
+  static_files: public/About.html
+  upload: public/About.html
+  secure: always
+
+- url: /Contact
+  static_files: public/Contact.html
+  upload: public/Contact.html
+  secure: always
+  
