@@ -6,12 +6,12 @@ handlers:
   upload: public/index.html
   secure: always
 
-- url: /About
+- url: /about
   static_files: public/About.html
   upload: public/About.html
   secure: always
 
-- url: /Contact
+- url: /contact
   static_files: public/Contact.html
   upload: public/Contact.html
   secure: always
