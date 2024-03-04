@@ -1,18 +1,13 @@
 runtime: python39
-
 handlers:
 - url: /
   static_files: public/index.html
   upload: public/index.html
-  secure: always
 
 - url: /about
-  static_files: public/About.html
-  upload: public/About.html
-  secure: always
+  static_files: public/about.html
+  upload: public/about.html
 
 - url: /contact
-  static_files: public/Contact.html
-  upload: public/Contact.html
-  secure: always
-  
+  static_files: public/contact.html
+  upload: public/contact.html
