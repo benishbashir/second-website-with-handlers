@@ -16,5 +16,7 @@ handlers:
   upload: public/contact.html
   secure: always
 
-
+- url: /(.*)
+  static_files: public/\1
+  upload: public/(.*)
 
